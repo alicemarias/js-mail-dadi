@@ -14,3 +14,8 @@ for (var i = 0; i < emailConAccesso.lenght; i++) {
 }
 
 // messaggio da dare all'utente in base all'esito del controllo
+if() {
+
+} else {
+
+}
