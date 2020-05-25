@@ -14,8 +14,8 @@ for (var i = 0; i < emailAccesso.lenght; i++) {
 }
 
 // messaggio da dare all'utente in base all'esito del controllo
-if(emailUtenteAccesso = true;) {
+if(emailUtenteAccesso = true) {
   alert("ciao! puoi accedere alla pagina");
-} else (emailUtenteAccesso = false;) {
+} else {
   alert("ciao,  per accedere alla pagina registrati o inserisci la mail corretta");
 }
