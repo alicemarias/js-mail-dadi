@@ -7,14 +7,14 @@ var emailAccesso = ["topo.lino@gmail.com","topo.lina@gmail.com","pippo.pilla@gma
 // stabilisco variabile emailUtenteAccesso
 var emailUtenteAccesso = false;
 //controllo che mail utente sia nella lista
-for (var i = 0; i < emailAccesso.lenght; i++) {
+for (var i = 0; i < emailAccesso.length; i++) {
   if (emailAccesso[i] === emailUtente) {
     emailUtenteAccesso = true;
   }
 }
 
 // messaggio da dare all'utente in base all'esito del controllo
-if(emailUtenteAccesso = true) {
+if(emailUtenteAccesso == true) {
   alert("ciao! puoi accedere alla pagina");
 } else {
   alert("ciao,  per accedere alla pagina registrati o inserisci la mail corretta");
